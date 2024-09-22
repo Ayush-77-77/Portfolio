@@ -415,10 +415,18 @@ nav .fa-solid-menu {
         /* margin-top: 50%;
        text-align: center;  
         font-size: 16px; */
+        /* display: flex;
+        justify-content: center; 
+        align-items: center;      
+        height: 100vh;  */
+
+
         display: flex;
-        justify-content: center;  /* Horizontally centers the item */
-        align-items: center;      /* Vertically centers the item */
-        height: 100vh; 
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: center;  /* Horizontally centers the items */
+    align-items: center;      /* Vertically centers the items */
+    height: 100vh;
+    text-align: center; 
     }
 
     .header-text h1 {
