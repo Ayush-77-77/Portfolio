@@ -407,7 +407,9 @@ nav .fa-solid-menu {
 
 @media only screen and (max-width: 660px) {
     .header {
-        background-image: url(images/phone-background.png);
+        
+        background-image: url(images/phone-background2.png);
+    
       
     }
 
